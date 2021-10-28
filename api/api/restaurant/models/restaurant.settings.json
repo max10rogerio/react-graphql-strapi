@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "restaurants",
+  "info": {
+    "name": "restaurant"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "categories": {
+      "via": "restaurants",
+      "collection": "category"
+    },
+    "comments": {
+      "via": "restaurant",
+      "collection": "comments"
+    }
+  }
+}
