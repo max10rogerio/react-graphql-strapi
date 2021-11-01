@@ -29,3 +29,17 @@ yarn
 
 yarn dev
 ```
+
+# Docs
+
+**React with Nextjs and graphql:**
+
+https://www.apollographql.com/blog/apollo-client/next-js/next-js-getting-started/
+
+**React Apollo Graphql:**
+
+https://www.apollographql.com/docs/react/
+
+**NextJS:**
+
+https://nextjs.org/docs/getting-started
