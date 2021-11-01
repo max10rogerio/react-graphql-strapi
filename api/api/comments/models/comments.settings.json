@@ -15,8 +15,8 @@
       "type": "text"
     },
     "restaurant": {
-      "model": "restaurant",
-      "via": "comments"
+      "via": "comments",
+      "model": "restaurant"
     }
   }
 }
